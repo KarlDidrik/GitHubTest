@@ -1,0 +1,15 @@
+.grå{
+    height: 170px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 100px;
+    border-radius: 50%;
+    background-color: grey;
+}
+.text{
+font-size: large;
+margin: auto;
+display: block;
+color: hotpink;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

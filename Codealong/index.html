@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="tall">1</div>
+    <button onclick="double()">2x</button>
+    <button onclick="plussEn()">+1</button>
+    <button onclick="resetNumber()">Reset</button>
+    <script>
+        var number = 1;
+
+function plussEn(){
+number++;
+document.getElementById("tall").innerHTML = number;
+}
+function doubleUp(){
+    number = number*2;
+    document.getElementById("tall").innerHTML = number;
+}
+function resetNumber(){
+    number = 1;
+    document.getElementById("tall").innerHTML = number; 
+}
+if(number >9000){
+document.getElementById("tall").innerHTML = 'Its over 9000';
+}
+    </script>
+</body>
+</html>
